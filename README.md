@@ -31,10 +31,7 @@ berwapp --name my-app
 
 ## 🎬 Demo
 
-<video src="assets/demo.mp4" width="100%" controls autoplay loop muted>
-  Your browser doesn't support embedded videos.
-  <a href="assets/demo.mp4">Download the demo instead</a>.
-</video>
+https://github.com/user-attachments/assets/8f66fb3f-4992-408d-a294-ebfc1e956255
 
 ## 📸 TUI Screens
 
