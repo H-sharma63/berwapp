@@ -1,8 +1,8 @@
-# berwapp
+# 🚀 berwapp
 
-Scaffold modern web projects with a smooth terminal user interface (TUI) and AI agent support.
+The **terminal-based scaffolding tool** that sets up your web projects **in seconds**—with **AI agent configs** baked in.
 
-![Beta](https://img.shields.io/badge/State-Beta-orange) ![Version](https://img.shields.io/badge/Version-0.1.0-blue) ![License](https://img.shields.io/badge/License-MIT-green)
+![Version](https://img.shields.io/npm/v/berwapp?color=blue) ![License](https://img.shields.io/npm/l/berwapp?color=green) ![Downloads](https://img.shields.io/npm/dt/berwapp)
 
 ---
 
@@ -16,49 +16,78 @@ npm install -g berwapp
 berwapp --name my-app
 ```
 
-For more features, check the [CLI docs](https://github.com/yourusername/berwapp#cli-features).
 
 ---
 
-## 🌟 Features
+## ✨ Features
 
-- ✨ **Interactive TUI** with framework selection (Next.js, React, Express)
-- 🤖 **AI Agent Config** support (Claude, Gemini, Cursor)
-- 📦 **Framework-Agnostic** scaffolding (Next.js, React, Express)
-- 🛠️ **Boilerplate Generator** with AI agent configs
-- 🧪 Ready for production out of the box
-
----
-
-## 🎥 Screenshot
-
-![App Screenshot](assets/screenshot.png)
-
-*Placeholder for video/gif of the TUI in action*
+✅ **Interactive TUI** – 100% terminal-based project setup
+✅ **AI Agent Ready** – Auto-generated `.claude/`, `.cursor/`, `GEMINI.md`
+✅ **Framework Agnostic** – Next.js, React, Express
+✅ **No Boilerplate BS** – Works instantly with `npm install -g berwapp`
+✅ **MIT License** – Use anywhere, modify freely
 
 ---
 
-## 📦 Installation
+## 🎬 Demo
+
+<video src="assets/demo.mp4" width="100%" controls autoplay loop muted>
+  Your browser doesn't support embedded videos.
+  <a href="assets/demo.mp4">Download the demo instead</a>.
+</video>
+
+## 📸 TUI Screens
+
+<table>
+  <tr>
+    <td align="center"><b>Welcome Screen</b><br><img src="assets/welcome.png" width="400"></td>
+    <td align="center"><b>Framework Selection</b><br><img src="assets/framework.png" width="400"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Feature Checkboxes</b><br><img src="assets/feature.png" width="400"></td>
+    <td align="center"><b>AI Agent Config</b><br><img src="assets/agent.png" width="400"></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><b>Project Preview</b><br><img src="assets/preview.png" width="830"></td>
+  </tr>
+</table>
+
+---
+
+## 📥 Installation
 
 ```bash
+# Global install (recommended)
 npm install -g berwapp
+
+# Run directly with npx
+npx berwapp --name my-project
 ```
 
 ## 🚀 Usage
 
 ```bash
-berwapp --name my-project
-# or interactively
+# Interactive mode
 berwapp
+
+# Skip prompts (defaults)
+berwapp --yes
+
+# Specify project name + framework
+berwapp --name my-app --framework nextjs
 ```
 
 ## 🤝 Contributing
 
-We welcome contributions! Check out our [CONTRIBUTION.md](CONTRIBUTION.md) for guidelines.
+Issues? Feature requests? Open an [issue](https://github.com/H-sharma63/berwapp/issues)!
+
+Want to contribute? Check out [CONTRIBUTION.md](CONTRIBUTION.md).
 
 ---
 
 ## 📜 License
 
 MIT © Harshit
+
+[![GitHub stars](https://img.shields.io/github/stars/H-sharma63/berwapp?style=social&logo=github)](https://github.com/H-sharma63/berwapp/stargazers)
 
